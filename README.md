@@ -10,6 +10,9 @@ toSlug("Hüseyin MAHİR Ulaş")
 
 toSlug("ÂÇİĞÖŞÜÑ+âçığöşüñ")
 // => acigosun-acigosun
+
+toSlug("çı ğ öş ü αβ. ΏΔπ")
+// => span-c-ig-os-u-ab-wdp
 ```
 
 ## INSTALL
