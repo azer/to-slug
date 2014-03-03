@@ -1,0 +1,26 @@
+{
+  "name": "to-slug",
+  "version": "0.0.0",
+  "description": "Turn given text to slug. (anglicize + to-slug-case)",
+  "main": "index.js",
+  "scripts": {
+    "test": "prova"
+  },
+  "devDependencies": {
+    "prova": "*"
+  },
+  "keywords": [
+    "slug",
+    "slugify"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/to-slug.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD",
+  "dependencies": {
+    "to-slug-case": "~0.1.2",
+    "anglicize": "0.0.5"
+  }
+}
