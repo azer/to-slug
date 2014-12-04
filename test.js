@@ -1,6 +1,8 @@
+var test = require("prova");
 var slug = require("./");
 
-it('anglicizes and slugifies', function(){
-  expect(slug('hüseyin MAHİR Ulaş')).to.equal('huseyin-mahir-ulas');
-  expect(slug('ÂÇİĞÖŞÜÑ+âçığöşüñ')).to.equal('acigosun-acigosun');
+test('anglicizes and slugifies', function (t) {
+  t.plan(2);
+  t.equal(slug('hüseyin MAHİR Ulaş'), 'huseyin-mahir-ulas');
+  t.equal(slug('ÂÇİĞÖŞÜÑ+âçığöşüñ'), 'acigosun-acigosun');
 });

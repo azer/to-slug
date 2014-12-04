@@ -4,7 +4,7 @@
   "description": "Turn given text to slug. (anglicize + to-slug-case)",
   "main": "index.js",
   "scripts": {
-    "test": "prova"
+    "test": "node test"
   },
   "devDependencies": {
     "prova": "*"
