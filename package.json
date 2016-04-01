@@ -21,6 +21,6 @@
   "license": "BSD",
   "dependencies": {
     "to-slug-case": "~0.1.2",
-    "anglicize": "0.0.5"
+    "anglicize": "azer/anglicize"
   }
 }
